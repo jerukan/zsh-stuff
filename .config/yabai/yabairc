@@ -18,12 +18,14 @@ yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
 yabai -m rule --add app="^Slack$" manage=off
 yabai -m rule --add app="^Discord$" manage=off
+yabai -m rule --add app="^Activity Monitor$" manage=off
 yabai -m rule --apply
 
 yabai -m config layout bsp
 yabai -m config window_placement second_child
 
 # Padding
+yabai -m config external_bar all:40:0
 yabai -m config top_padding 10
 yabai -m config bottom_padding 10
 yabai -m config right_padding 10
