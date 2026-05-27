@@ -3,7 +3,7 @@
 
 zstyle ':omz:update' mode disabled
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jerry/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -101,35 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias python=/usr/local/bin/python3
 # alias pip=/usr/local/bin/pip3
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/jerry/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/jerry/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/jerry/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/jerry/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-conda deactivate
-
-# pyenv crap (comment when using conda)
-# eval "$(pyenv init -)"
-
 export PATH=$PATH:/usr/local/sbin
-# export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
-
-export PATH="$PATH:/Users/jerry/Documents/Programs/libraries/flutter/bin"
-
-alias julia="exec '/Applications/Julia-1.6.app/Contents/Resources/julia/bin/julia'"
-
-alias psql="/Library/PostgreSQL/13/scripts/runpsql.sh"
-
-alias acconda="source ~/miniconda3/bin/activate"
 
 export EDITOR="vim"
