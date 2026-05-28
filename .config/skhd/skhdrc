@@ -215,6 +215,8 @@ alt + cmd - e : yabai -m window --toggle split
 
 # float / unfloat window and center on screen
 alt + cmd - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
+# jank way to unstack
+alt + cmd - u : yabai -m window --toggle float && yabai -m window --toggle float
 # make floating window fill left/right-half of screen
 alt + cmd - j : yabai -m window --grid 1:2:0:0:1:1
 alt + cmd - l : yabai -m window --grid 1:2:1:0:1:1

@@ -20,7 +20,7 @@ if [ -n "$ARTIST" ]; then
 else
   LABEL="$TITLE"
 fi
-MAX=40
+MAX=35
 if [ ${#LABEL} -gt $MAX ]; then
   LABEL="${LABEL:0:$((MAX - 1))}…"
 fi
