@@ -220,6 +220,7 @@ alt + cmd - u : yabai -m window --toggle float && yabai -m window --toggle float
 # zoom fullscreen or zoom parent
 alt + cmd - f : yabai -m window --toggle zoom-fullscreen
 alt + cmd - d : yabai -m window --toggle zoom-parent
-# make floating window fill left/right-half of screen
+# make floating window fill left/right-half of screen, or full screen
 alt + cmd - j : yabai -m window --grid 1:2:0:0:1:1
 alt + cmd - l : yabai -m window --grid 1:2:1:0:1:1
+alt + cmd - k : yabai -m window --grid 1:1:0:0:1:1
