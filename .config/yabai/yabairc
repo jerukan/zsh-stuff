@@ -20,6 +20,8 @@ yabai -m rule --add app="^Slack$" manage=off
 yabai -m rule --add app="^Discord$" manage=off
 yabai -m rule --add app="^Activity Monitor$" manage=off
 yabai -m rule --add app="^MacPass$" manage=off
+yabai -m rule --add app="^IINA$" manage=off
+yabai -m rule --add app="^QuickTime Player$" manage=off
 yabai -m rule --apply
 
 yabai -m config layout bsp
